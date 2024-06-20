@@ -14,6 +14,6 @@ python manage.py makemigrations --empty contenttypes
 python manage.py makemigrations --empty sessions
 python manage.py makemigrations --empty messages
 python manage.py makemigrations --empty staticfiles
-python manage.py makemigrations staticfiles
+python manage.py makemigrations classifier
 # Apply any outstanding database migrations
 python manage.py migrate classifier
